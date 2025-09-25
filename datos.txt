@@ -9,3 +9,4 @@ Modalidad de cursada: Presencial
 Nombre y apellido: Valentina Francesca Vacca
 Instancia de evaluación: Primer Parcial
 Docente: Florencia Magalí Bilotti
+link:https://valenvacca007.github.io/avatar/
