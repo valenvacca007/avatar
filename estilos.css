@@ -235,13 +235,13 @@ body {
 .contenedor-botones {
   display: flex;
   justify-content: center;
-  gap: 50px; /* espacio entre botones */
-  flex-wrap: wrap; /* para que bajen a otra fila en móviles */
+  gap: 50px; 
+  flex-wrap: wrap; 
   margin: 40px 0;
 }
 
 /* Botones */
-.btn {
+.btn{
   padding: 12px 25px;
   border-radius: 50px;
   font-weight: bold;
@@ -253,7 +253,7 @@ body {
   transition: all 0.3s ease;
 }
 
-/* Bloques de texto “Ver más” */
+/* “Ver más” */
 .texto-historia {
   position: fixed;
   top: 50%;
@@ -275,7 +275,7 @@ body {
   z-index: 999;
 }
 
-/* Bloque izquierdo */
+/* izquierdo */
 #expand-izq:checked ~ .texto-historia.izquierdo {
   width: 50vw;
   max-width: 500px;
@@ -284,7 +284,7 @@ body {
   padding: 20px;
 }
 
-/* Bloque derecho */
+/* derecho */
 #expand-der:checked ~ .texto-historia.derecho {
   width: 50vw;
   max-width: 500px;
@@ -293,7 +293,9 @@ body {
   padding: 20px;
 }
 
-/* Cerrar botón */
+
+
+/* Cerrar  */
 .cerrar {
   position: absolute;
   top: 10px;
@@ -623,21 +625,6 @@ footer .footer-socials img {
   color: #4DD0E1;
 }
 
-.footer-social {
-  margin-top: 10px;
-}
-
-.footer-social a {
-  margin: 0 10px;
-  color: #fff;
-  font-size: 1.2rem;
-  transition: color 0.3s;
-}
-
-.footer-social a:hover {
-  color: #7D5FFF;
-}
-
 /*MEDIA QUERIES ADICIONALES */
 
 
@@ -667,7 +654,7 @@ footer .footer-socials img {
   }
 
   /* Galería */
-  .gallery-container { 
+  .galeria-container { 
     flex-direction: column; 
     align-items: center; 
   }
